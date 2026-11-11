@@ -1,0 +1,23 @@
+{
+  "failed_rows_by_check": {
+    "foreign_keys": 0,
+    "integrity": 0,
+    "closing_balances": 0,
+    "ledger_rules": 0,
+    "forecast_rules": 0,
+    "forecast_sources": 0,
+    "duplicate_flows": 0,
+    "settlement_dates": 0,
+    "missing_forecast_fx": 0
+  },
+  "expected_counts_match": true,
+  "same_seed_counts_and_checksums_match": true,
+  "exception_results": {
+    "CASE-001": "BALANCE_MISMATCH",
+    "CASE-002": "MISSING_FX",
+    "CASE-003": "DUPLICATE_CASH_FLOW",
+    "CASE-004": "ACTUAL_AFTER_CUTOFF",
+    "CASE-005": "MIXED_CURRENCIES"
+  },
+  "exception_labels_match": true
+}

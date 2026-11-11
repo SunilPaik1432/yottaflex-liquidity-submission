@@ -1,0 +1,34 @@
+[
+  {
+    "id": "CASE-001",
+    "opening": 100,
+    "ledger_net": 25,
+    "closing": 130
+  },
+  {
+    "id": "CASE-002",
+    "currency": "USD",
+    "reporting_currency": "INR",
+    "fx_rate": null
+  },
+  {
+    "id": "CASE-003",
+    "source_ids": [
+      "REC-001-0001",
+      "REC-001-0001"
+    ]
+  },
+  {
+    "id": "CASE-004",
+    "cutoff": "2026-11-10",
+    "actual_date": "2026-11-12"
+  },
+  {
+    "id": "CASE-005",
+    "currencies": [
+      "INR",
+      "USD"
+    ],
+    "converted_to": null
+  }
+]

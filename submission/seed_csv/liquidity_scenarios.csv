@@ -1,0 +1,2 @@
+scenario_id,scenario_name,assumptions,created_at
+SCN-BASE-2026,Base Case,Pending items flow on their due dates. Overdue items are reported separately.,2026-11-10

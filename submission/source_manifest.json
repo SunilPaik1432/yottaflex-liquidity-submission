@@ -1,0 +1,53 @@
+{
+  "source": "Synthetic records generated locally. No external dataset.",
+  "generator": "src/generate_dataset.py",
+  "scale": "full",
+  "seed": 20261022,
+  "cutoff": "2026-11-10",
+  "tables": {
+    "bank_accounts": {
+      "rows": 150,
+      "sha256_ordered_rows": "500636cae432903004c142c0acef6fae861d8105a9684386847203f15bf7687e"
+    },
+    "cash_flow_forecasts": {
+      "rows": 20000,
+      "sha256_ordered_rows": "35fcb263c40026ae24ab8ad6c667df45fa298dda8605eeecf80402454aa480f8"
+    },
+    "currency_rates": {
+      "rows": 60,
+      "sha256_ordered_rows": "7b7b87fed1b206ca2278b72075a7e213755cca53ed2aff97d4a3af4b95a7e52d"
+    },
+    "forecast_runs": {
+      "rows": 1,
+      "sha256_ordered_rows": "e4c33f2478aaf23f7aa3c414ad2ec924f7fad252db8e8fd4a1b23924876d574b"
+    },
+    "ledger_entries": {
+      "rows": 100000,
+      "sha256_ordered_rows": "e9b196c5de38c71045e0aa180e8db49a47157a1d529be75577a08db152efc938"
+    },
+    "legal_entities": {
+      "rows": 30,
+      "sha256_ordered_rows": "f72054193f2eae70cc000794c3cf2b03fcca1c43a86586e1cf9ac16e34a880f0"
+    },
+    "liquidity_scenarios": {
+      "rows": 1,
+      "sha256_ordered_rows": "c363c7fa80089aab23778a7bd8d75a157dfbde4c2d17989b741ab8f43f5bf201"
+    },
+    "payables": {
+      "rows": 10030,
+      "sha256_ordered_rows": "035780a6b95538da090f42aadaa9a9bc633ad9e464840605d8448f9dbdbe4a6a"
+    },
+    "receivables": {
+      "rows": 10030,
+      "sha256_ordered_rows": "62e54be287bf4e433cc5d2e9a06fa03250c64a58519b4b1a1bc5176e4f905973"
+    },
+    "scenario_forecasts": {
+      "rows": 0,
+      "sha256_ordered_rows": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "settlements": {
+      "rows": 20000,
+      "sha256_ordered_rows": "740858f919a87969f7e3da50277f0bdbe8271003368eb6d950642579f9648861"
+    }
+  }
+}
