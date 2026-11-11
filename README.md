@@ -124,3 +124,8 @@ Set the main file path to `streamlit_app.py`. That entry point creates a full
 synthetic database when the process starts, so visitors can try Actual vs
 Forecast without a data upload. Saved scenario runs are stored in that
 instance's temporary database and can reset when the instance restarts.
+
+The checked-in [submission data](submission/) includes the CSV seed files,
+labelled exception cases, ground truth, manifest and validation summary.
+See [design and validation](docs/design.md) for the model choices and
+[AI assistance](docs/ai-assistance.md) for the available project prompt record.
